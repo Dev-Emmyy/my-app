@@ -23,7 +23,7 @@ export default function Conversation() {
                 <div className={styles.sidebarLogo}>
                     <Image
                     src="/graph_logo.svg"
-                    alt="Next.js Logo"
+                    alt="img"
                     width="43"
                     height="43"
                     priority
@@ -34,7 +34,7 @@ export default function Conversation() {
                         <a href={linkWithId1 ? linkWithId1.url : '#'}>
                         <Image
                             src="/category2.svg"
-                            alt="Next.js Logo"
+                            alt="img"
                             width="24"
                             height="24"
                             priority
@@ -44,7 +44,7 @@ export default function Conversation() {
                     <div className={styles.unreadMessagesContainer}>
                         <Image
                         src="/bag.svg"
-                        alt="Next.js Logo"
+                        alt="img"
                         width="24"
                         height="24"
                         priority
@@ -54,7 +54,7 @@ export default function Conversation() {
                     <div>
                         <Image
                         src="/user.svg"
-                        alt="Next.js Logo"
+                        alt="img"
                         width="24"
                         height="24"
                         priority
@@ -64,7 +64,7 @@ export default function Conversation() {
                         <a href={linkWithId2 ? linkWithId2.url : '#'}>
                         <Image
                         src="/folder.svg"
-                        alt="Next.js Logo"
+                        alt="img"
                         width="24"
                         height="24"
                         priority
@@ -75,7 +75,7 @@ export default function Conversation() {
                         <a href={linkWithId1 ? linkWithId1.url : '#'}>
                         <Image
                         src="/chat.svg"
-                        alt="Next.js Logo"
+                        alt="img"
                         width="24"
                         height="24"
                         priority
@@ -85,7 +85,7 @@ export default function Conversation() {
                     <div>
                         <Image
                         src="/setting.svg"
-                        alt="Next.js Logo"
+                        alt="img"
                         width="24"
                         height="24"
                         priority
@@ -98,7 +98,7 @@ export default function Conversation() {
                              <Image
     
                                 src="/contact.svg"
-                                alt="Next.js Logo"
+                                alt="img"
                                 width="24"
                                 height="24"
                                 priority
@@ -108,7 +108,7 @@ export default function Conversation() {
                             <Image
     
                                 src="/gift.svg"
-                                alt="Next.js Logo"
+                                alt="img"
                                 width="24"
                                 height="24"
                                 priority
@@ -119,7 +119,7 @@ export default function Conversation() {
                         <Image
 
                             src="/logout.svg"
-                            alt="Next.js Logo"
+                            alt="img"
                             width="24"
                             height="24"
                             priority
@@ -136,7 +136,7 @@ export default function Conversation() {
                 <div className={styles.rightHomeContainer}>
                     <Image
                     src="/home.svg" 
-                    alt="Next.js Logo" 
+                    alt="img" 
                     width="13" 
                     height="13"
                     priority />
@@ -149,7 +149,7 @@ export default function Conversation() {
                     <p>Nanny&apos;s Shop</p>
                     <Image
                     src="/down_arrow.svg"
-                    alt="Next.js Logo"
+                    alt="img"
                     width="24"
                     height="24"
                     priority
@@ -158,7 +158,7 @@ export default function Conversation() {
                 <div>
                     <Image
                     src="/notification.svg"
-                    alt="Next.js Logo"
+                    alt="img"
                     width="14"
                     height="14"
                     priority
@@ -168,7 +168,7 @@ export default function Conversation() {
                     <Image
                     className={styles.navbar_Img}
                     src="/dp.jpeg"
-                    alt="Next.js Logo"
+                    alt="img"
                     width="32"
                     height="32"
                     priority
@@ -200,7 +200,7 @@ export default function Conversation() {
                         <div>
                             <Image
                             src="/search.svg"
-                            alt="Next.js Logo"
+                            alt="img"
                             width="15"
                             height="15"
                             priority
@@ -217,7 +217,7 @@ export default function Conversation() {
                                 <Image
                                 className={styles.user_Img}
                                 src="/dp2.png"
-                                alt="Next.js Logo"
+                                alt="img"
                                 width="49"
                                 height="49"
                                 priority
@@ -226,7 +226,7 @@ export default function Conversation() {
                             <Image
                                 className={styles.user_Img}
                                 src="/online.svg"
-                                alt="Next.js Logo"
+                                alt="img"
                                 width="49"
                                 height="49"
                                 priority
@@ -250,7 +250,7 @@ export default function Conversation() {
                                 <Image
                                 className={styles.user_Img}
                                 src="/dp3.png"
-                                alt="Next.js Logo"
+                                alt="img"
                                 width="49"
                                 height="49"
                                 priority
@@ -259,7 +259,7 @@ export default function Conversation() {
                             <Image
                                 className={styles.user_Img}
                                 src="/online2.svg"
-                                alt="Next.js Logo"
+                                alt="img"
                                 width="49"
                                 height="49"
                                 priority
@@ -283,7 +283,7 @@ export default function Conversation() {
                                 <Image
                                 className={styles.user_Img}
                                 src="/dp4.png"
-                                alt="Next.js Logo"
+                                alt="img"
                                 width="49"
                                 height="49"
                                 priority
@@ -292,7 +292,7 @@ export default function Conversation() {
                             <Image
                                 className={styles.user_Img}
                                 src="/online.svg"
-                                alt="Next.js Logo"
+                                alt="img"
                                 width="49"
                                 height="49"
                                 priority
@@ -316,7 +316,7 @@ export default function Conversation() {
                                 <Image
                                 className={styles.user_Img}
                                 src="/dp2.png"
-                                alt="Next.js Logo"
+                                alt="img"
                                 width="49"
                                 height="49"
                                 priority
@@ -325,7 +325,7 @@ export default function Conversation() {
                             <Image
                                 className={styles.user_Img}
                                 src="/online.svg"
-                                alt="Next.js Logo"
+                                alt="img"
                                 width="49"
                                 height="49"
                                 priority
@@ -349,7 +349,7 @@ export default function Conversation() {
                                 <Image
                                 className={styles.user_Img}
                                 src="/dp3.png"
-                                alt="Next.js Logo"
+                                alt="img"
                                 width="49"
                                 height="49"
                                 priority
@@ -358,7 +358,7 @@ export default function Conversation() {
                             <Image
                                 className={styles.user_Img}
                                 src="/online.svg"
-                                alt="Next.js Logo"
+                                alt="img"
                                 width="49"
                                 height="49"
                                 priority
@@ -381,7 +381,7 @@ export default function Conversation() {
                                 <Image
                                 className={styles.user_Img}
                                 src="/dp4.png"
-                                alt="Next.js Logo"
+                                alt="img"
                                 width="49"
                                 height="49"
                                 priority
@@ -390,7 +390,7 @@ export default function Conversation() {
                             <Image
                                 className={styles.user_Img}
                                 src="/online2.svg"
-                                alt="Next.js Logo"
+                                alt="img"
                                 width="49"
                                 height="49"
                                 priority
@@ -413,7 +413,7 @@ export default function Conversation() {
                                 <Image
                                 className={styles.user_Img}
                                 src="/dp2.png"
-                                alt="Next.js Logo"
+                                alt="img"
                                 width="49"
                                 height="49"
                                 priority
@@ -422,7 +422,7 @@ export default function Conversation() {
                             <Image
                                 className={styles.user_Img}
                                 src="/online2.svg"
-                                alt="Next.js Logo"
+                                alt="img"
                                 width="49"
                                 height="49"
                                 priority
@@ -445,7 +445,7 @@ export default function Conversation() {
                                 <Image
                                 className={styles.user_Img}
                                 src="/dp3.png"
-                                alt="Next.js Logo"
+                                alt="img"
                                 width="49"
                                 height="49"
                                 priority
@@ -454,7 +454,7 @@ export default function Conversation() {
                             <Image
                                 className={styles.user_Img}
                                 src="/online2.svg"
-                                alt="Next.js Logo"
+                                alt="img"
                                 width="49"
                                 height="49"
                                 priority
@@ -477,7 +477,7 @@ export default function Conversation() {
                                 <Image
                                 className={styles.user_Img}
                                 src="/dp4.png"
-                                alt="Next.js Logo"
+                                alt="img"
                                 width="49"
                                 height="49"
                                 priority
@@ -486,7 +486,7 @@ export default function Conversation() {
                             <Image
                                 className={styles.user_Img}
                                 src="/online2.svg"
-                                alt="Next.js Logo"
+                                alt="img"
                                 width="49"
                                 height="49"
                                 priority
@@ -508,7 +508,7 @@ export default function Conversation() {
                                 <Image
                                 className={styles.user_Img}
                                 src="/dp4.png"
-                                alt="Next.js Logo"
+                                alt="img"
                                 width="49"
                                 height="49"
                                 priority
@@ -517,7 +517,7 @@ export default function Conversation() {
                             <Image
                                 className={styles.user_Img}
                                 src="/online.svg"
-                                alt="Next.js Logo"
+                                alt="img"
                                 width="49"
                                 height="49"
                                 priority
@@ -541,7 +541,7 @@ export default function Conversation() {
                                 <Image
                                 className={styles.messageDp}
                                 src="/dp2.png"
-                                alt="Next.js Logo"
+                                alt="img"
                                 width="60"
                                 height="60"
                                 priority
@@ -553,7 +553,7 @@ export default function Conversation() {
                                     <div>
                                         <Image
                                         src="/online.svg"
-                                        alt="Next.js Logo"
+                                        alt="img"
                                         width="12"
                                         height="12"
                                         priority
@@ -581,7 +581,7 @@ export default function Conversation() {
                             <div className={styles.messageOrderContainer2}>
                                 <Image
                                 src="/bag.svg"
-                                alt="Next.js Logo"
+                                alt="img"
                                 width="20"
                                 height="20"
                                 priority
@@ -601,7 +601,7 @@ export default function Conversation() {
                             <div>
                                 <Image
                                 src="/iphone_gold.png"
-                                alt="Next.js Logo"
+                                alt="img"
                                 width="49"
                                 height="49"
                                 priority
@@ -632,7 +632,7 @@ export default function Conversation() {
                                 <div>
                                     <Image
                                     src="/check.svg"
-                                    alt="Next.js Logo"
+                                    alt="img"
                                     width="12"
                                     height="12"
                                     priority
@@ -650,7 +650,7 @@ export default function Conversation() {
                                 <div>
                                     <Image
                                     src="/check.svg"
-                                    alt="Next.js Logo"
+                                    alt="img"
                                     width="12"
                                     height="12"
                                     priority
@@ -676,7 +676,7 @@ export default function Conversation() {
                             <div className={styles.addImageContainer}>
                                 <Image
                                 src="/add.svg"
-                                alt="Next.js Logo"
+                                alt="img"
                                 width="24"
                                 height="24"
                                 priority
@@ -691,7 +691,7 @@ export default function Conversation() {
                             <div>
                                 <Image
                                 src="/emoji.svg"
-                                alt="Next.js Logo"
+                                alt="img"
                                 width="24"
                                 height="24"
                                 priority
@@ -704,7 +704,7 @@ export default function Conversation() {
                                 <div>
                                     <Image
                                     src="/send.svg"
-                                    alt="Next.js Logo"
+                                    alt="img"
                                     width="24"
                                     height="24"
                                     priority

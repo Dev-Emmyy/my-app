@@ -29,7 +29,7 @@ export default function Home() {
         <Image
           className={styles.logo}
           src="/graph_logo.svg"
-          alt="Next.js Logo"
+          alt="img"
           width="52"
           height="52"
           priority
@@ -47,7 +47,7 @@ export default function Home() {
         <Image
           className={styles.logo}
           src="/category.svg"
-          alt="Next.js Logo"
+          alt="img"
           width="24"
           height="24"
           priority
@@ -66,7 +66,7 @@ export default function Home() {
         <Image
           className={styles.logo}
           src="/bag.svg"
-          alt="Next.js Logo"
+          alt="img"
           width="24"
           height="24"
           priority
@@ -85,7 +85,7 @@ export default function Home() {
         <Image
           className={styles.logo}
           src="/user.svg"
-          alt="Next.js Logo"
+          alt="img"
           width="24"
           height="24"
           priority
@@ -100,7 +100,7 @@ export default function Home() {
         <Image
           className={styles.logo}
           src="/folder.svg"
-          alt="Next.js Logo"
+          alt="img"
           width="24"
           height="24"
           priority
@@ -115,7 +115,7 @@ export default function Home() {
         <Image
           className={styles.logo}
           src="/chat.svg"
-          alt="Next.js Logo"
+          alt="img"
           width="24"
           height="24"
           priority
@@ -138,7 +138,7 @@ export default function Home() {
         <Image
           className={styles.logo}
           src="/setting.svg"
-          alt="Next.js Logo"
+          alt="img"
           width="24"
           height="24"
           priority
@@ -155,7 +155,7 @@ export default function Home() {
         <Image
           className={styles.logo}
           src="/contact.svg"
-          alt="Next.js Logo"
+          alt="img"
           width="24"
           height="24"
           priority
@@ -171,7 +171,7 @@ export default function Home() {
         <Image
           className={styles.logo}
           src="/gift.svg"
-          alt="Next.js Logo"
+          alt="img"
           width="24"
           height="24"
           priority
@@ -190,7 +190,7 @@ export default function Home() {
         <Image
           className={styles.logo}
           src="/side_arrow.svg"
-          alt="Next.js Logo"
+          alt="img"
           width="24"
           height="24"
           priority
@@ -202,7 +202,7 @@ export default function Home() {
         <Image
           className={styles.logo}
           src="/logout.svg"
-          alt="Next.js Logo"
+          alt="img"
           width="24"
           height="24"
           priority
@@ -227,7 +227,7 @@ export default function Home() {
         <p>Dashboard</p>
         <Image className={styles.logo}
          src="/home.svg" 
-         alt="Next.js Logo" 
+         alt="img" 
           width="13" 
           height="13"
          priority />
@@ -238,7 +238,7 @@ export default function Home() {
           <Image
           className={styles.logo}
           src="/down_arrow.svg"
-          alt="Next.js Logo"
+          alt="img"
           width="24"
           height="24"
           priority
@@ -248,7 +248,7 @@ export default function Home() {
           <Image
           className={styles.logo}
           src="/notification.svg"
-          alt="Next.js Logo"
+          alt="img"
           width="14"
           height="14"
           priority
@@ -258,7 +258,7 @@ export default function Home() {
           <Image
           className={styles.navbar_Img}
           src="/dp.jpeg"
-          alt="Next.js Logo"
+          alt="img"
           width="32"
           height="32"
           priority
@@ -273,7 +273,7 @@ export default function Home() {
           <div className={styles.summaryImgContainer}>
             <Image
             src="/graph.svg"
-            alt="Next.js Logo"
+            alt="img"
             width="32"
             height="32"
             priority
@@ -283,7 +283,7 @@ export default function Home() {
             <p>This Week</p>
             <Image
             src="/down_arrow2.svg"
-            alt="Next.js Logo"
+            alt="img"
             width="32"
             height="32"
             priority
@@ -308,7 +308,7 @@ export default function Home() {
           <div className={styles.summaryImgContainer2}>
             <Image
             src="/user2.svg"
-            alt="Next.js Logo"
+            alt="img"
             width="32"
             height="32"
             priority
@@ -318,7 +318,7 @@ export default function Home() {
              <p>This Week</p>
               <Image
             src="/down_arrow2.svg"
-            alt="Next.js Logo"
+            alt="img"
             width="32"
             height="32"
             priority
@@ -343,7 +343,7 @@ export default function Home() {
           <div className={styles.summaryImgContainer2}>
             <Image
             src="/bag2.svg"
-            alt="Next.js Logo"
+            alt="img"
             width="32"
             height="32"
             priority
@@ -353,7 +353,7 @@ export default function Home() {
             <p>This Week</p>
             <Image
             src="/down_arrow2.svg"
-            alt="Next.js Logo"
+            alt="img"
             width="32"
             height="32"
             priority
@@ -392,7 +392,7 @@ export default function Home() {
                 <p>This Week</p>
                 <Image
                 src="/down_arrow2.svg"
-                alt="Next.js Logo"
+                alt="img"
                 width="32"
                 height="32"
                 priority
@@ -416,7 +416,7 @@ export default function Home() {
              <div className={styles.barChartImgContainer}>
               <Image
                 src="/group.svg"
-                alt="Next.js Logo"
+                alt="img"
                 width="205"
                 height="205"
                 priority
@@ -430,7 +430,7 @@ export default function Home() {
             <div className={styles.barChartImg}>
              <Image
                 src="/folder2.svg"
-                alt="Next.js Logo"
+                alt="img"
                 width="32"
                 height="32"
                 priority
@@ -454,7 +454,7 @@ export default function Home() {
                <div className={styles.barChartImg2}>
                 <Image
                 src="/cart.svg"
-                alt="Next.js Logo"
+                alt="img"
                 width="32"
                 height="32"
                 priority
@@ -467,7 +467,7 @@ export default function Home() {
                 <div>
                   <Image
                   src="/down_arrow2.svg"
-                  alt="Next.js Logo"
+                  alt="img"
                   width="32"
                   height="32"
                   priority
@@ -498,7 +498,7 @@ export default function Home() {
               <p>Sales</p>
                <Image
                 src="/down_arrow3.svg"
-                alt="Next.js Logo"
+                alt="img"
                 width="32"
                 height="32"
                 priority
@@ -509,7 +509,7 @@ export default function Home() {
             <p>Last 7 Days</p>
              <Image
               src="/down_arrow4.svg"
-              alt="Next.js Logo"
+              alt="img"
               width="32"
               height="32"
               priority
@@ -530,7 +530,7 @@ export default function Home() {
             <div>
                <Image
                 src="/bar_1.svg"
-                alt="Next.js Logo"
+                alt="img"
                 width="13"
                 height="241"
                 priority
@@ -540,7 +540,7 @@ export default function Home() {
             <div>
                <Image
                 src="/bar_2.svg"
-                alt="Next.js Logo"
+                alt="img"
                 width="50"
                 height="241"
                 priority
@@ -550,7 +550,7 @@ export default function Home() {
             <div>
                <Image
                 src="/bar_3.svg"
-                alt="Next.js Logo"
+                alt="img"
                 width="50"
                 height="241"
                 priority
@@ -560,7 +560,7 @@ export default function Home() {
             <div>
                <Image
                 src="/bar_4.svg"
-                alt="Next.js Logo"
+                alt="img"
                 width="50"
                 height="241"
                 priority
@@ -570,7 +570,7 @@ export default function Home() {
             <div>
                <Image
                 src="/bar_5.svg"
-                alt="Next.js Logo"
+                alt="img"
                width="50"
                 height="241"
                 priority
@@ -580,7 +580,7 @@ export default function Home() {
             <div>
                <Image
                 src="/bar_6.svg"
-                alt="Next.js Logo"
+                alt="img"
                 width="50"
                 height="241"
                 priority
@@ -590,7 +590,7 @@ export default function Home() {
             <div>
                <Image
                 src="/bar_7.svg"
-                alt="Next.js Logo"
+                alt="img"
                 width="50"
                 height="241"
                 priority
@@ -614,7 +614,7 @@ export default function Home() {
             <div>
                 <Image
                 src="/iphone_gold.png"
-                alt="Next.js Logo"
+                alt="img"
                 width="49"
                 height="49"
                 priority
@@ -636,7 +636,7 @@ export default function Home() {
             <div>
                 <Image
                 src="/iphone_black.png"
-                alt="Next.js Logo"
+                alt="img"
                 width="49"
                 height="49"
                 priority
@@ -658,7 +658,7 @@ export default function Home() {
             <div>
                 <Image
                 src="/iphone_gold.png"
-                alt="Next.js Logo"
+                alt="img"
                 width="49"
                 height="49"
                 priority
@@ -680,7 +680,7 @@ export default function Home() {
             <div>
                 <Image
                 src="/iphone_black.png"
-                alt="Next.js Logo"
+                alt="img"
                 width="49"
                 height="49"
                 priority
@@ -702,7 +702,7 @@ export default function Home() {
             <div>
                 <Image
                 src="/iphone_black.png"
-                alt="Next.js Logo"
+                alt="img"
                 width="49"
                 height="49"
                 priority
@@ -724,7 +724,7 @@ export default function Home() {
             <div>
                 <Image
                 src="/iphone_black.png"
-                alt="Next.js Logo"
+                alt="img"
                 width="49"
                 height="49"
                 priority
@@ -746,7 +746,7 @@ export default function Home() {
             <div>
                 <Image
                 src="/iphone_gold.png"
-                alt="Next.js Logo"
+                alt="img"
                 width="49"
                 height="49"
                 priority
@@ -768,7 +768,7 @@ export default function Home() {
             <div>
                 <Image
                 src="/iphone_gold.png"
-                alt="Next.js Logo"
+                alt="img"
                 width="49"
                 height="49"
                 priority
