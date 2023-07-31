@@ -1,0 +1,714 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@500&display=swap');
+
+.mainContainer {
+    background-color: #CFD3D4;
+    display: flex;
+    height: 1170px;
+}
+
+.sidebarContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 120px;
+    width: 88px;
+    padding: 0px 10px 0px 0px;
+    background-color: #fff;    
+}
+
+.midSideBarContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    height: 100vh;
+}
+
+.unreadMessagesContainer {
+    position: relative;
+    display: inline-block;
+}
+
+.logo {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.unreadMessageIndicator {
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    background: var(--secondary-100, #FFCC91);
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--black-100, #1C1D22);
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sidebarChat {
+    border-radius: 12px;
+    background: var(--primary-100, #5570F1);
+    display: flex;
+    width: 26px;
+    padding: 16px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomSidebarContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 80px;
+}
+
+.bottomSidebarContainer2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sidebarContact {
+    border-radius: 16px;
+    background: rgba(94, 99, 102, 0.10);
+    display: flex;
+    width: 26px;
+    padding: 11px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sidebarGift {
+    border-radius: 16px;
+    background: rgba(255, 204, 145, 0.20);
+    display: flex;
+    width: 26px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.rightMainContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: calc(100% - 88px);
+}
+
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF;
+    padding: 3px 20px;
+}
+
+.navbarContainer p {
+    color: var(--black-60, #45464E);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.rightHomeContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rightHomeContainer p {
+    color: var(--black-30, #8B8D97);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.rightnavbarContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.rightnavbarContainer2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border-radius: 8px;
+    background: var(--secondary-20, #FEF5EA);
+    padding: 5px 12px;
+}
+
+.rightnavbarContainer2 p {
+    color: var(--black-100, #1C1D22);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.navbar_Img {
+    border-radius: 8px;
+}
+
+.conversationTitleContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.conversationTitleContainer p {
+    color: var(--black-60, #45464E);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.conversationTitleDescContainer {
+    display: flex;
+    width: 161px;
+    height: 36px;
+    padding: 10px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    background: var(--primary, #5570F1);
+}
+
+.conversationTitleDescContainer p {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.conversationMainMessagesContainer {
+    display: flex;
+    gap: 20px;
+}
+
+.contactsMainContainer {
+    background-color: #fff;
+    width: 400px;
+    height: 920px;
+    padding: 0px 20px;
+    margin-left: 15px;
+    border-radius: 10px;
+    overflow-y: hidden;
+}
+
+.contactsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactsContainer h3 {
+    color: var(--black-90, #2C2D33);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.contactsContainer p {
+    color: var(--black-20, #A6A8B1);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.contactsInputContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 363px;
+    height: 45px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid var(--black-1, #CFD3D4);
+}
+
+.contactsInputContainer p {
+    color: var(--black-2, #ABAFB1);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.userMainmessageContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 18px;
+    width: 380px;
+    border-right: 4px solid #5570F1;
+    background: #F7F7FC;
+    border-bottom: 1px solid var(--stroke, #F1F3F9);
+}
+
+.usermessageContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 380px;
+    padding: 0px 18px;
+    border-bottom: 1px solid var(--stroke, #F1F3F9);
+}
+
+.userProfileMainContainer {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.user_Img {
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.userProfileContainer {
+    position: relative;
+    width: 48px;
+    height: 48px;
+}
+
+.onlineIndicator {
+    position: absolute;
+    top: 0%;
+    right: -5px;
+    width: 12px;
+    height: 12px;
+    transform: translate(0, -50%);
+}
+
+.userDescContainer h3 {
+    color: var(--black-60, #45464E);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.userDescContainer p {
+    color: var(--black-30, #8B8D97);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.userDescContainer2 h3 {
+    color: var(--black-100, #1C1D22);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 8px;
+    background: var(--secondary-20, #FEF5EA);
+    padding: 2px 7px;
+    text-align: center;
+}
+
+.userDescContainer2 p {
+    color: var(--black-30, #8B8D97);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.userDescContainer3 p {
+    color: var(--black-30, #8B8D97);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 45px;
+}
+
+.userDescContainer4 p {
+    color: var(--black-30, #8B8D97);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.userDescContainer4 h3 {
+    margin-left: 15px;
+    border-radius: 50%;
+    background: var(--secondary-100, #FFCC91);
+    display: flex;
+    width: 25px;
+    height: 3px;
+    padding: 13px 3px;
+    justify-content: center;
+    align-items: center;
+    color: var(--black-100, #1C1D22);
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.messagesMainContainer {
+    width: 660px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.messagesTopContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    border-bottom: 1px solid var(--stroke, #F1F3F9);
+}
+
+.messsageonlineIndicator {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.messageDp {
+    border-radius: 8px;
+    border: 1px solid var(--stroke, #F1F3F9);
+    background: lightgray 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.messageName p {
+    color: var(--black-60, #45464E);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.messageNameIndicator {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.messageNameIndicator p {
+    color: var(--primary-30, #B6BFE8);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.messageNameIndicator h3 {
+    color: var(--black-30, #8B8D97);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.messageOrderContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.messageOrderContainer h3 {
+    border-radius: 8px;
+    background: var(--secondary-20, #FEF5EA);
+    padding: 2px 7px;
+    color: var(--black-100, #1C1D22);
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+.messageOrderContainer p {
+    color: var(--primary-100, #5570F1);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.messageOrderContainer2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.messageOrderContainer2 p {
+    color: var(--black-20, #A6A8B1);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.dateMessageContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.dateMessageContainer p {
+    text-align: center;
+    border-radius: 8px;
+    background: var(--main-background, #F4F5FA);
+    padding: 8px 12px;
+    color: var(--black-100, #1C1D22);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+}
+
+
+.conversationContainerOne {
+    display: flex;
+    flex-direction: column;
+    width: 350px; 
+    padding: 0px 20px;
+}
+
+.chatSentOne {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--stroke, #F1F3F9);
+}
+
+.chatSentTwo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.chatSentTwo h3 {
+    color: var(--black-80, #33343A);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.chatSentTwo p {
+    color: var(--black-60, #45464E);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.stockMessage p {
+    color: var(--black-20, #A6A8B1);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 45px;
+}
+
+.stockMessage span {
+    color: var(--primary-100, #5570F1);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.chatSentThree h3 {
+    padding: 16px;
+    border-radius: 16px 16px 16px 0px;
+    background: var(--primary-100, #5570F1);
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.chatSentThree p {
+    color: var(--black-30, #8B8D97);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -10px;
+}
+
+.conversationContainerTwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0px 20px;
+
+}
+
+.chatReceivedContainer h3 {
+    border-radius: 16px 16px 0px 16px;
+    background: var(--secondary-50, #FFEAD1);
+    color: var(--black-100, #1C1D22);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 16px;
+    margin-bottom: -10px;
+}
+
+.timeReceivedContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.timeReceivedContainer p {
+    color: var(--black-30, #8B8D97);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.timeReceivedContainer img {
+    border-radius: 100px;
+    background: var(--secondary-50, #FFEAD1);
+    display: flex;
+    width: 16px;
+    height: 16px;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatSentThreeContainer {
+    width: 390px;
+    padding: 0px 20px;
+}
+
+.sendMessageContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid var(--grey, #E1E2E9);
+    padding: 5px 20px;
+    width: 580px;
+    margin: 0 auto;
+    /* Center the container horizontally */
+    
+}
+.addContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.addContainer p {
+    color: var(--black-40, #6E7079);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.addImageContainer img {
+    border-radius: 8px;
+    background: var(--secondary-30, #FFF2E2);
+    padding: 16px;
+}
+
+.emojiMessageContainer {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.sendContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: var(--secondary-30, #FFF2E2);
+    padding: 0px 16px;
+}
+
+.sendContainer p {
+    color: var(--black-100, #1C1D22);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
