@@ -250,7 +250,7 @@ export default function Home() {
           src="/notification.svg"
           alt="Next.js Logo"
           width="14"
-          height="16"
+          height="14"
           priority
         />
         </div>
