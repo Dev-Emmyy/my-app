@@ -157,10 +157,10 @@ export default function Conversation() {
                 </div>
                 <div>
                     <Image
-                    src="/notification.svg"
+                    src="/notify.svg"
                     alt="img"
-                    width="14"
-                    height="14"
+                    width="15"
+                    height="15"
                     priority
                 />
                 </div>

@@ -27,7 +27,6 @@ export default function Home() {
     <div className={styles.sidebarContainer}>
       <div className={styles.sidebarLogo}>
         <Image
-          className={styles.logo}
           src="/graph_logo.svg"
           alt="img"
           width="52"
@@ -45,7 +44,6 @@ export default function Home() {
       <div className={styles.sidebarMiddleContainer}>
         <div className={styles.sidebarMiddleMainLogo}>
         <Image
-          className={styles.logo}
           src="/category.svg"
           alt="img"
           width="24"
@@ -64,7 +62,6 @@ export default function Home() {
 
         <div className={styles.sidebarMiddleLogo}>
         <Image
-          className={styles.logo}
           src="/bag.svg"
           alt="img"
           width="24"
@@ -83,7 +80,6 @@ export default function Home() {
 
         <div className={styles.sidebarMiddleLogo}>
         <Image
-          className={styles.logo}
           src="/user.svg"
           alt="img"
           width="24"
@@ -98,7 +94,6 @@ export default function Home() {
 
         <div className={styles.sidebarMiddleLogo}>
         <Image
-          className={styles.logo}
           src="/folder.svg"
           alt="img"
           width="24"
@@ -113,7 +108,6 @@ export default function Home() {
 
         <div className={styles.sidebarMiddleLogo}>
         <Image
-          className={styles.logo}
           src="/chat.svg"
           alt="img"
           width="24"
@@ -136,7 +130,6 @@ export default function Home() {
 
         <div className={styles.sidebarMiddleLogo}>
         <Image
-          className={styles.logo}
           src="/setting.svg"
           alt="img"
           width="24"
@@ -153,7 +146,6 @@ export default function Home() {
       <div className={styles.sidebarBottomContainer}>
         <div className={styles.sidebarBottomLogo}>
         <Image
-          className={styles.logo}
           src="/contact.svg"
           alt="img"
           width="24"
@@ -169,7 +161,6 @@ export default function Home() {
         <div className={styles.sidebarBottomContainer2}>
           <div className={styles.sidebarBottomLogo2}>
         <Image
-          className={styles.logo}
           src="/gift.svg"
           alt="img"
           width="24"
@@ -188,7 +179,6 @@ export default function Home() {
         </div>
 
         <Image
-          className={styles.logo}
           src="/side_arrow.svg"
           alt="img"
           width="24"
@@ -200,7 +190,6 @@ export default function Home() {
 
         <div className={styles.sidebarLogo}>
         <Image
-          className={styles.logo}
           src="/logout.svg"
           alt="img"
           width="24"
@@ -225,7 +214,7 @@ export default function Home() {
     <div className={styles.navbarContainer}>
       <div>
         <p>Dashboard</p>
-        <Image className={styles.logo}
+        <Image
          src="/home.svg" 
          alt="img" 
           width="13" 
@@ -236,7 +225,6 @@ export default function Home() {
         <div className={styles.rightnavbarContainer2}>
           <p>Nanny&apos;s Shop</p>
           <Image
-          className={styles.logo}
           src="/down_arrow.svg"
           alt="img"
           width="24"
@@ -246,11 +234,10 @@ export default function Home() {
         </div>
         <div>
           <Image
-          className={styles.logo}
-          src="/notification.svg"
+          src="/notify.svg"
           alt="img"
-          width="14"
-          height="14"
+          width="15"
+          height="15"
           priority
         />
         </div>
