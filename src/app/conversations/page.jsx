@@ -146,7 +146,7 @@ export default function Conversation() {
                 </div>
                 <div className={styles.rightnavbarContainer}>
                 <div className={styles.rightnavbarContainer2}>
-                    <p>Nanny's Shop</p>
+                    <p>Nanny&apos;s Shop</p>
                     <Image
                     src="/down_arrow.svg"
                     alt="Next.js Logo"

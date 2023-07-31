@@ -234,7 +234,7 @@ export default function Home() {
       </div>
       <div className={styles.rightnavbarContainer}>
         <div className={styles.rightnavbarContainer2}>
-          <p>Nanny's Shop</p>
+          <p>Nanny&apos;s Shop</p>
           <Image
           className={styles.logo}
           src="/down_arrow.svg"
